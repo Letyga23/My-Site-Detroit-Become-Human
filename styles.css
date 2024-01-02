@@ -1,0 +1,171 @@
+.button-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+.button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    background: #00A7EC;
+    transition: transform 0.3s;
+    margin-right: 50px;
+    transition: background 1s;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background: #008BB5;
+}
+
+.selectButton {
+    background: rgba(0, 180, 255, 0.5);
+}
+
+.text {
+    color: black;
+    font-size: 30px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.logo {
+    width: 241px;
+    height: 59px;
+    margin: 10px;
+}
+
+.header-image {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    height: auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main {
+    margin-top: 19%;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.footer-text {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 16px;
+    color: #8B8B8B;
+}
+
+.contacts-container {
+    height: 36px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    width: 100%;
+    background: black;
+    justify-content: center;
+}
+
+.contacts-title {
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.footer-logo {
+    height: 150px;
+    background: #00A7EC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-image {
+    width: 201px;
+    height: 49px;
+    padding-right: 20px;
+}
+
+.vertical-line {
+    width: 3px;
+    height:55px;
+    background: white;
+    margin-right: 10px;
+}
+
+.footer-columns {
+    display: flex;
+}
+
+.footer-column {
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    padding-right: 30px;
+}
+
+.column-link {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.footer-copyright {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    background: #00A7EC;
+    padding-bottom: 15px;
+}
+
+h1 {
+    color: #00A7EC;
+    margin-bottom: 10px;
+}
+
+body {
+    margin: 0;
+}
+
+
+li::marker {
+    color: #00A7EC;
+    font-size: 32px;
+}
+
+ul {
+    list-style-type: disc;
+    font-size: 24px;
+}
